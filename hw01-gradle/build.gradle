@@ -16,6 +16,6 @@ shadowJar {
     archiveVersion.set('0.1')
     archiveClassifier.set('')
     manifest {
-        attributes 'Main-Class': 'HelloOtus'
+        attributes 'Main-Class': 'ru.prival.HelloOtus'
     }
 }
