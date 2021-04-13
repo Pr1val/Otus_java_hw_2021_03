@@ -19,3 +19,5 @@ shadowJar {
         attributes 'Main-Class': 'ru.prival.HelloOtus'
     }
 }
+
+tasks.build.dependsOn tasks.shadowJar
